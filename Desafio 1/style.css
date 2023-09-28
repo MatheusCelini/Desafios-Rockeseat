@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
+:root{
+    --font1:'Inclusive Sans', sans-serif;
+}
+*{margin: 0px;
+padding: 0px;
+}
+
+body{background-color: #FE9255;
+}
+main{background-color: #FFFFFF;
+max-width: 900px;
+min-width: 380px;
+margin: auto;
+margin-top: 15px;
+margin-bottom:15px ;
+border-radius: 15px;}
+
+img{width: 100%;
+    height: 250px;
+    object-fit: cover;
+border-radius: 15px;
+box-shadow: rgba(0, 0, 0, 0.253) 3px 1px 5px;}
+.imagem{padding-left:15px;
+    padding-right: 15px;
+}
+p{text-align: right;
+padding-right: 15px;
+padding-top: 0px;
+font-family: var(--font1);
+color: rgb(207, 207, 207);
+font-size: 0.7em;}
+h1,h2{font-family: var(--font1);
+    text-align: center;
+    padding: 35px;}
+ul{list-style-position: inside;
+line-height: 2em;
+padding: 35px;}
+ol{list-style-position: inside;
+    line-height: 3em;
+    padding: 35px;}
+.dif{line-height: 1em;}
+aside{text-align: left;
+padding:35px;}
+aside>a{text-decoration: none;
+color: #9b562f;}
+footer{text-align: center;
+color: #9b562f;
+padding: 15px;}
+footer>a{text-decoration: none;
+color: whitesmoke;}
+a:hover{text-decoration: underline;}
+
+
